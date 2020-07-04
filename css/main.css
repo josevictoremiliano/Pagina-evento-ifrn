@@ -1,0 +1,222 @@
+body {
+    background-color: black;
+    font-size: 15px;
+    line-height: 1.52;
+    color: #717f86;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    position: relative; 
+    animation-duration: 5s;
+}
+ol, ul {
+	list-style: none;
+}
+.section-padding{
+    padding: 5px 0px;
+  
+}
+.icon{
+    display: inline-block;
+    font: normal normal normal 40px/1;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+/*Icon Subir*/
+a[href="#top"]{
+    padding:10px;
+    position:fixed;
+    top: 90%;
+    right:40px;
+    display:none;
+    font-size: 30px;
+    color: linear-gradient (#DDFF01, #2e0) !important;
+}
+a[href="#top"]:hover{
+    text-decoration:none;
+}
+/*animalçao de textos*/
+.js .animation {
+	opacity: 0;
+	transform: translate3D(-50px, 0px, 0px);
+}
+
+.js .animation-init {
+	opacity: 1;
+	transform: translate3D(0px, 0px, 0px);
+	transition: .7s all ease;
+}
+/***********************************
+Banner
+************************************/
+.banner{
+	background: url('../img/Programando.jpg') no-repeat center top;
+    background-size: cover;
+	min-height: 580px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    padding-top: 53px;
+}
+.logo{
+    height: 440px;
+}
+.text-center{
+    text-align: center;
+}
+.bg-color{
+	background-color: RGBA(12, 11, 11, 0.82);
+	min-height: 580px;
+}
+.text-dec{
+	font-size: 24px;
+	padding: 10px 20px;
+    margin: 15px 0;
+	text-transform: uppercase;
+    color: #fff;
+    transition: 0.5s;
+}
+.text-border{
+	display: inline-block;
+    margin-top: 30px;
+    transition: 0,9s;
+}
+.intro-para{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 45px;
+	color: #fff;
+	margin-top: 30px;
+}
+.modal-dialog {
+    width: 600px;
+    margin: 150px auto;
+}
+.mouse {
+    width: 25px;
+    height: 45px;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -12.5px;
+    border-radius: 12px;
+}
+.mouse::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: #fff;
+    border-radius: 100%;
+    left: 50%;
+    top:10px;
+    margin-left: -2.5px;
+    transition:all 0.3s ease-in;
+
+     -webkit-animation-name: rotateplane; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation-name: rotateplane;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.modal-content h4 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.login-box-body {
+    padding: 15px 30px;
+}
+.login-box-msg, .register-box-msg {
+    margin: 0px;
+    text-align: center;
+    padding: 0px 20px 20px;
+}
+.modal-sm {
+    width: 400px;
+}
+.padleft-right{
+    padding-left: 5px;
+    padding-right: 0px;
+}
+.big-text{
+    font-size: 35px;
+}
+.small-text{
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Informações */
+.info{
+   color:black;
+   background-color: #EDEDED;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   -moz-animation-direction: reverse;
+   transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.titleCenter{
+    align-items: center;
+    text-align: center;
+    font-size: 20pt;
+    padding: 20px;
+}
+.icon{
+    float: left;
+    size: 100px;
+}
+
+/* Horarios */
+.colorHoras{
+    background: white;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+.infoTitle{
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+/*Minicursos*/
+
+.bg_minicurso{
+    background: #EDEDED;
+    padding-top: 60px !important;
+    padding-bottom: 160px !important;
+    padding: 110px;
+}
+.minic{
+    padding-bottom: 5px;
+}
+.title{
+    padding-top: 40px;
+    color: black;
+}
+.bottom-line {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(99, 122, 145);
+}
+.fea i {
+    font-size: 39px;
+    color: #5FCF80;
+    margin-top: 7px;
+}
+.fea-img {
+    width: 20%;
+}
+.animation h4{
+    color: black;
+}
+
+/*footer*/
+
+.footer{
+    background-color: rgb(34, 34, 34);
+}
+.lineD{
+    color: white;
+}
